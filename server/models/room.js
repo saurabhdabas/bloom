@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const roomSchema = mongoose.Schema({
   title : String,
-  maxGuests: Number,
+  maxNoGuests: Number,
   size : Number,
   price: Number,
   thumbnail: String,
